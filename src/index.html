@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 <header>
   <div class="topnav" id="myTopnav">
   
-    <a href="#home" class="object-cover"><img src="/images/logo-nav-bar.png" alt=""></a>
+    <a href="#home" class="object-cover lg:w-14"><img src="/images/logo-nav-bar.png" alt=""></a>
     <a href="#home">Librería Smart</a>
     <a href="#home">Inicio</a>
     <a href="#products">Productos</a>
@@ -143,20 +143,20 @@
     </div>
   </section>
 
-  <section id="contact-us" class="lg:mt-36">
+  <section id="contact-us" class="lg:mt-36 lg:mr-40 lg:ml-40">
     <h2 class="text-center lg:text-5xl font-bold lg:mb-10 sm:mb-5 max-sm:mb-5 max-sm:text-2xl">Contáctenos</h2>
 
     <div class="lg:w-full lg:bg-slate-100 rounded-xl">
       <div class="lg:grid lg:grid-cols-1 place-items-center text-center">
 
         <div>
-          <label for="username">Nombre:</label><br>
+          <label for="name">Nombre:</label><br>
           <input type="text" id="name" name="name">
         </div>
 
         <div>
           <label for="email">Correo:</label><br>
-          <input type="email" id="name" name="email">
+          <input type="email" id="email" name="email">
         </div>
 
         <div>
@@ -172,6 +172,33 @@
 
     </div>
   </section>
+
+
+  <footer class="lg:h-14 lg:bg-green-500 lg:mt-36">
+
+    <div class="lg:flex lg:justify-center lg:space-x-96">
+
+      <div class="lg:mt-2">
+        <span>Copyright © Find Job Latam</span>
+      </div>
+
+      <div class="flex justify-center space-x-9 lg:text-center lg:mt-2">
+
+        <div  class="w-7 text-center">
+          <a href="https://www.facebook.com/profile.php?id=100032892985943" target="_blank"><img src="/images/Facebook-Logo.png" alt=""></a>
+        </div>
+        <div  class="w-7 text-center">
+          <a href=""><img src="/images/whatsapp-logo.png" alt=""></a>
+        </div>
+
+        <div  class="w-7 text-center">
+          <a href="https://www.instagram.com/libreriasmart/"><img src="/images/instagram-circle-icon-png-.png" alt=""></a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
 
   <script src="/script.js"></script>
 </body>
