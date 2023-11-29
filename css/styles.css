@@ -183,3 +183,17 @@ body{
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+/* 
+Responsive Design for services section */
+
+@media only screen and (max-width: 1400px) {
+  .bordertop {
+      border-top-right-radius: 1.5rem/* 24px */;
+  }
+}
+
+@media only screen and  (max-width: 1400px) {
+  .borderbottom {
+      border-bottom-right-radius: 1.5rem/* 24px */;
+  }
+}
