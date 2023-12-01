@@ -197,3 +197,9 @@ Responsive Design for services section */
       border-bottom-right-radius: 1.5rem !important/* 24px */;
   }
 }
+
+@media (max-width: 1220px) {
+  .lg-adapted {
+      grid-template-columns: repeat(1, minmax(0, 1fr)) !important
+  }
+}
